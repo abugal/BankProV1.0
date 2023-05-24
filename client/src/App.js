@@ -6,6 +6,7 @@ import { useAuthContext } from "./hooks/useAuthContext";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
+import Deposit from "./pages/Deposit"
 
 
 
@@ -30,6 +31,10 @@ function App() {
             <Route
               path="/signup"
               element={!user ? <Signup /> : <Navigate to="/" />}
+            />
+            <Route
+              path="/withdraw"
+              element={!user ? <Deposit /> : <Navigate to="/" />}
             />
           </Routes>
         </div>

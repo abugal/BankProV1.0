@@ -3,6 +3,7 @@ import { useLogin } from '../hooks/useLogin'
 import "../styles/Login.css";
 import profile from "../assets/bpfp.png";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 //import emailpic from "../assets/email.jpg";
 // import pass from "../assets/pass.png";
 
@@ -68,6 +69,7 @@ const Login = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

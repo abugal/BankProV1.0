@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useDepositsContext } from "../hooks/useDepositsContext";
 import { useAuthContext } from "../hooks/useAuthContext";
 
+
 // components
 import DepositDetails from "../components/DepositDetails";
 import DepositForm from "../components/DepositForm";
